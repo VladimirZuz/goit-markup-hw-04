@@ -56,6 +56,83 @@ body {
   letter-spacing: 0.03em;
 }
 
+/*======================COMPONENTS================*/
+.auth-nav-mail-icon {
+  margin-right: 10px;
+}
+
+.auth-nav-tel-icon {
+  margin-right: 10px;
+}
+
+.auth-nav-tel-icon:hover,
+.auth-nav-tel-icon:focus {
+}
+
+.auth-nav-mail-icon:hover,
+.auth-nav-mail-icon:focus {
+}
+
+.feature-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.team-social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.team-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.team-social-list-link:hover,
+.team-social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.team-social-list-link:hover .team-social-list-icon,
+.team-social-list-link:focus .team-social-list-icon {
+  fill: #ffffff;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+/*==================END COMPONENTS================*/
+
 /*=========================HEADER=======================*/
 .header-container {
   display: flex;
@@ -95,7 +172,6 @@ body {
 
 .auth-nav-list {
   display: flex;
-  align-items: center;
 }
 
 .site-nav-item:not(:last-child) {
@@ -146,7 +222,9 @@ body {
 .hero-menu {
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
   text-align: center;
+  margin: 0 auto;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/imghero.jpg');
@@ -250,6 +328,8 @@ body {
   background: #ffffff;
   padding: 30px 20px;
   border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .team-title {
   font-weight: 700;
@@ -290,6 +370,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   color: #757575;
+  padding-bottom: 16px;
 }
 /*==============END СЕКЦИЯ-4 НАША КОМАНДА=================*/
 
@@ -353,6 +434,18 @@ body {
 .footer-auth-nav-tel:focus {
   color: var(--accent-color);
 }
+
+.footer-join {
+  width: 145px;
+  height: 16px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 /*=============================END FOOTER=====================*/
 
 /*=======================PORTFOLIO-1 FILTER===================*/
