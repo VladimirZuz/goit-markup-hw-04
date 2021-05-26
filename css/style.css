@@ -245,6 +245,8 @@ body {
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--link-nav);
+  display: flex;
+  align-items: center;
 }
 
 .auth-nav-mail-link:hover,
@@ -258,6 +260,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--link-nav);
   margin-left: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .auth-nav-tel-link:hover,
