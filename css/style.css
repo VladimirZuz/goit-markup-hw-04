@@ -73,23 +73,23 @@ body {
   cursor: pointer;
 }
 
-.auth-nav-tel-icon:hover,
-.auth-nav-tel-icon:focus {
+.auth-nav-tel-link:hover,
+.auth-nav-tel-link:focus {
   fill: #2196f3;
 }
 
-.auth-nav-mail-icon:hover,
-.auth-nav-mail-icon:focus {
+.auth-nav-tel-link:hover .auth-nav-tel-icon,
+.auth-nav-tel-link:focus .auth-nav-tel-icon {
+  fill: var(--accent-color);
+}
+
+.auth-nav-mail-link:hover,
+.auth-nav-mail-link:focus {
   fill: #2196f3;
 }
 
 .auth-nav-mail-link:hover .auth-nav-mail-icon,
-.auth-nav-mail-link:hover .auth-nav-mail-icon {
-  fill: var(--accent-color);
-}
-
-.auth-nav-tel-link:hover .auth-nav-tel-icon,
-.auth-nav-tel-link:hover .auth-nav-tel-icon {
+.auth-nav-mail-link:focus .auth-nav-mail-icon {
   fill: var(--accent-color);
 }
 
@@ -253,6 +253,7 @@ body {
 .auth-nav-mail-link:focus {
   color: var(--accent-color);
 }
+
 .auth-nav-tel-link {
   font-weight: 500;
   font-size: 14px;
@@ -470,7 +471,7 @@ body {
 }
 
 .client-list-link:hover .client-list-icon,
-.client-list-link:hover .client-list-icon {
+.client-list-link:focus .client-list-icon {
   fill: var(--accent-color);
 }
 
